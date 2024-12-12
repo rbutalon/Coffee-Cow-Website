@@ -1,0 +1,241 @@
+/*Outer Section*/
+.missionSection {
+    height: 100vh;
+    background-color: var(--clr-light);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/*Beans!*/
+.missionBean1 {
+    background-image: url('missionbean.svg');
+    width: 200px;
+    height: 30%;
+    right: 0;
+    transform: translate(-15%, -35%) rotate(140deg);
+}
+
+.missionBean2 {
+    background-image: url('missionbean.svg');
+    width: 200px;
+    height: 30%;
+    left: 0;
+    transform: translate(-45%, 155%) rotate(-145deg);
+}
+
+.missionBean3 {
+    background-image: url('missionbean.svg');
+    width: 150px;
+    height: 20%;
+    top: unset;
+    right: 0;
+    transform: translate(40%, -10%) rotate(160deg);
+}
+
+/*Inner Section*/
+.mission {
+    padding-top: var(--size-5xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: var(--size-3xl);
+
+    h1 {
+        font-size: var(--size-5xl);
+        color: var(--clr-dark);
+        z-index: 1;
+    }
+}
+
+.missionContents {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: var(--size-5xl);
+    padding: 10px;
+
+    div {
+        padding: 5px;
+    }
+
+    p {
+        color: var(--clr-dark);
+        font-size: var(--size-sm);
+    }
+
+    img {
+        width: 230px;
+        height: max-content;
+        margin-bottom: var(--size-7xl);
+        border-radius: 27px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        box-shadow: -20px 20px 3px 0px rgba(23, 25, 27, 1);
+    }
+
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .missionContents {
+        p {
+            font-size: var(--size-base);
+        }
+
+        img {
+            width: 250px;
+            height: max-content;
+            margin-bottom: var(--size-7xl);
+        }
+    }
+
+    .missionBean1 {
+        width: 210px;
+        height: 32%;
+        transform: translate(-20%, -35%) rotate(140deg);
+    }
+
+    .missionBean2 {
+        width: 210px;
+        height: 32%;
+        transform: translate(-45%, 155%) rotate(-145deg);
+    }
+
+    .missionBean3 {
+        width: 160px;
+        height: 22%;
+        transform: translate(40%, -10%) rotate(160deg);
+    }
+
+}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .mission {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: var(--size-3xl);
+
+        h1 {
+            padding-top: var(--size-4xl);
+            font-size: var(--size-6xl);
+            color: var(--clr-dark);
+        }
+    }
+
+    .missionContents {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: justify;
+        gap: var(--size-8xl);
+        padding: 50px 10px 10px 10px;
+    }
+
+    .missionText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        width: 475px;
+
+        p {
+            color: var(--clr-dark);
+            font-size: var(--size-base);
+            padding-bottom: var(--size-7xl);
+        }
+
+    }
+
+    .missionImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        width: 50%;
+
+        img {
+            width: 300px;
+            height: max-content;
+        }
+    }
+
+    .missionBean1 {
+        width: 220px;
+        height: 34%;
+        transform: translate(-60%, -35%) rotate(140deg);
+    }
+
+    .missionBean2 {
+        width: 220px;
+        height: 34%;
+        transform: translate(-45%, 155%) rotate(-145deg);
+    }
+
+    .missionBean3 {
+        width: 165px;
+        height: 24%;
+        transform: translate(40%, -10%) rotate(160deg);
+    }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .missionText {
+        width: 600px;
+    }
+
+    .missionBean1 {
+        width: 230px;
+        height: 36%;
+        transform: translate(-60%, -35%) rotate(140deg);
+    }
+
+    .missionBean2 {
+        width: 230px;
+        height: 36%;
+        transform: translate(-45%, 155%) rotate(-145deg);
+    }
+
+    .missionBean3 {
+        width: 170px;
+        height: 26%;
+        transform: translate(40%, -10%) rotate(160deg);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .mission {
+        h1 {
+            font-size: var(--size-7xl);
+        }
+    }
+
+    .missionText {
+        width: 700px;
+
+        p {
+            font-size: var(--size-xl);
+        }
+    }
+}

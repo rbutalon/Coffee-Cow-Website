@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+   width: var(--size-5xl);
+   height: var(--size-5xl);
+}
+.header__menu, .header__buttons {
+    display: none;
+}
+
+.header__bars{
+    display: block;
+    color: var(--clr-dark); /*change to --clr-light pag dark bg*/
+    height: var(--size-2xl);
+    width: var(--size-2xl);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .header__logo {
+        width: var(--size-6xl);
+        height: var(--size-6xl);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .header__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2rem;
+    }
+    .header__buttons{
+        display: flex;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .header__link {
+        font-size: var(--size-sm);
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--clr-dark); /*change to --clr-light if dark background*/
+        letter-spacing: -0.05em;
+        transition: color 0.3s ease;
+    }
+    
+    .header__link:hover{
+        color: var(--clr-beige);
+    }
+    
+    .header__login {
+        font-size: var(--size-xs);
+    }
+
+    .header__bars {
+        display: none;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    
+    .header__logo{
+        height: var(--size-7xl);
+        width: var(--size-7xl);
+    }
+
+    .header__menu {
+        gap: 3rem;
+    }
+    .header__link {
+        font-size: var(--size-sm);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+    .header__menu {
+        gap: 3.5rem;
+    }
+    .header__link {
+        font-size: var(--size-base);
+    }
+
+    .header__login{
+        font-size: var(--size-sm);
+    }
+
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .header__menu {
+        gap: 4.3rem;
+    }
+    .header__link {
+        font-size: var(--size-lg);
+    }
+
+    .header__login{
+        font-size: var(--size-sm);
+    }
+}
