@@ -8,7 +8,7 @@
 
 /*Background Logo*/
 .aboutBg {
-    background-image: url('aboutbg.svg');
+    background-image: url('/aboutbg.svg');
     width: 730px;
     left: 0;
     height: 100%;

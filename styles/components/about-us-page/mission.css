@@ -9,7 +9,7 @@
 
 /*Beans!*/
 .missionBean1 {
-    background-image: url('missionbean.svg');
+    background-image: url('/missionbean.svg');
     width: 200px;
     height: 30%;
     right: 0;
@@ -17,7 +17,7 @@
 }
 
 .missionBean2 {
-    background-image: url('missionbean.svg');
+    background-image: url('/missionbean.svg');
     width: 200px;
     height: 30%;
     left: 0;
@@ -25,7 +25,7 @@
 }
 
 .missionBean3 {
-    background-image: url('missionbean.svg');
+    background-image: url('/missionbean.svg');
     width: 150px;
     height: 20%;
     top: unset;

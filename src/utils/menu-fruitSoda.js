@@ -57,28 +57,28 @@ window.onclick = function(event) {
 
 const products = [
     { 
-        imageSrc: 'valyrian-fizz.svg', 
+        imageSrc: '/valyrian-fizz.svg', 
         title: 'VALYRIAN FIZZ', 
         price: '₱110', 
         description: 'Experience a burst of fruity goodness with our Valyrian Fizz, perfectly complemented by a refreshing fizz. This sparkling treat is ideal for quenching your thirst on any occasion.', 
         ingredients: 'Sparkling Water, Lime Juice, Fruit Syrup.' 
     },
     { 
-        imageSrc: 'jade-sparkle.svg', 
+        imageSrc: '/jade-sparkle.svg', 
         title: 'JADE SPARKLE', 
         price: '₱90', 
         description: 'Our Jade Sparkle is a lively citrus drink infused with the coolness of fresh mint. Its vibrant green hue makes it as visually stunning as it is refreshing.', 
         ingredients: 'Lemonade, Mint Leaves, Green Food Coloring.' 
     },
     { 
-        imageSrc: 'golden-zest.svg', 
+        imageSrc: '/golden-zest.svg', 
         title: 'GOLDEN ZEST', 
         price: '₱90', 
         description: 'Enjoy the zesty and bold flavors of citrus and ginger in our Golden Zest. This invigorating blend delivers a perfect balance of tanginess and warmth.', 
         ingredients: 'Ginger Ale, Lemon Juice, Orange Zest.' 
     },
     { 
-        imageSrc: 'tropical-splash.svg', 
+        imageSrc: '/tropical-splash.svg', 
         title: 'TROPICAL SPLASH', 
         price: '₱100', 
         description: 'Dive into a tropical paradise with our Tropical Splash, a delightful mix of pineapple and coconut flavors. Every sip takes you on a refreshing getaway with a fizzy touch.', 

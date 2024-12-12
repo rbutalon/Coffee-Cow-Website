@@ -67,9 +67,9 @@ window.onclick = function(event) {
 
 // Example products with additional details
 const products = [
-    { imageSrc: 'CR.svg', title: 'CINNAMON ROLL', price: '₱130', description: 'A soft, spiraled pastry with a sweet cinnamon filling and a creamy glaze.', ingredients: 'Flour, cinnamon, sugar, butter, and cream cheese.' },
-    { imageSrc: 'WCC.svg', title: 'WHITE CHOCOLATE CROISSANT', price: '₱130', description: 'A flaky, buttery croissant filled with rich white chocolate for a luscious treat.', ingredients: 'Flour, butter, white chocolate, and sugar.' },
-    { imageSrc: 'MC.svg', title: 'MATCHA CROISSANT', price: '₱130', description: 'A delicate croissant infused with earthy matcha flavor for a unique twist.', ingredients: 'Flour, butter, matcha powder, and sugar.' },
+    { imageSrc: '/CR.svg', title: 'CINNAMON ROLL', price: '₱130', description: 'A soft, spiraled pastry with a sweet cinnamon filling and a creamy glaze.', ingredients: 'Flour, cinnamon, sugar, butter, and cream cheese.' },
+    { imageSrc: '/WCC.svg', title: 'WHITE CHOCOLATE CROISSANT', price: '₱130', description: 'A flaky, buttery croissant filled with rich white chocolate for a luscious treat.', ingredients: 'Flour, butter, white chocolate, and sugar.' },
+    { imageSrc: '/MC.svg', title: 'MATCHA CROISSANT', price: '₱130', description: 'A delicate croissant infused with earthy matcha flavor for a unique twist.', ingredients: 'Flour, butter, matcha powder, and sugar.' },
 ];
 
 // Wait for the DOM to be fully loaded

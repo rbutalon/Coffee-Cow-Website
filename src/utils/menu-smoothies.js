@@ -64,28 +64,28 @@ window.onclick = function(event) {
 // Example products with additional details
 const products = [
     { 
-        imageSrc: 'frozen-strawberry.svg', 
+        imageSrc: '/frozen-strawberry.svg', 
         title: 'FROZEN STRAWBERRY', 
         price: '₱100', 
         description: 'Indulge in the sweet and tangy taste of our Frozen Strawberry, made with the freshest strawberries and a hint of magic. Perfect for hot summer days and a refreshing pick-me-up any time of the year.', 
         ingredients: 'Strawberries, Sugar, Water' 
     },
     { 
-        imageSrc: 'frozen-melon.svg', 
+        imageSrc: '/frozen-melon.svg', 
         title: 'FROZEN MELON', 
         price: '₱100', 
         description: 'Experience the refreshing and revitalizing taste of our Frozen Melon, carefully crafted to quench your thirst and satisfy your cravings. A sweet and soothing treat for any occasion.', 
         ingredients: 'Melon, Honey, Ice' 
     },
     { 
-        imageSrc: 'frozen-lychee.svg', 
+        imageSrc: '/frozen-lychee.svg', 
         title: 'FROZEN LYCHEE', 
         price: '₱100', 
         description: 'Discover the exotic and alluring taste of our Frozen Lychee, expertly blended to transport you to a tropical paradise. A sweet and fruity escape from the ordinary.', 
         ingredients: 'Lychee, Sugar, Water' 
     },
     { 
-        imageSrc: 'frozen-caffeine.svg', 
+        imageSrc: '/frozen-caffeine.svg', 
         title: 'FROZEN CAFFEINE', 
         price: '₱100', 
         description: 'A cool blend of rich espresso and creamy milk is perfectly chilled with ice to give you that refreshing kick you need to power through your day. Smooth, bold, and seriously satisfying.', 

@@ -1,8 +1,6 @@
- // Function to create a product card
  function createProductCard(imageSrc, title, price, description, ingredients) {
     const cardContainer = document.getElementById('card__container');
 
-    // Create card elements
     const card = document.createElement('div');
     card.className = 'card';
 
@@ -21,7 +19,6 @@
     cardPrice.className = 'card__price';
     cardPrice.textContent = price;
 
-    // Append elements to the card
     cardDescp.appendChild(cardTitle);
     cardDescp.appendChild(cardPrice);
     card.appendChild(img);
@@ -59,13 +56,12 @@ window.onclick = function(event) {
 }
 
 const products = [
-    { imageSrc: 'lemon.svg', title: 'LEMON', price: '₱110', description: 'A refreshing tea infused with the zesty flavor of lemon.', ingredients: 'Brown sugar, milk, and ice.Lemon, tea, sugar, and ice.' },
-    { imageSrc: 'kiwi.svg', title: 'KIWI', price: '₱110', description: 'A tangy and tropical tea with the distinct taste of kiwi.', ingredients: 'Kiwi, tea, sugar, and ice.' },
-    { imageSrc: 'passionfruit.svg', title: 'PASSION FRUIT', price: '₱120', description: 'A vibrant, tropical tea with the sweet and tangy flavor of passion fruit.', ingredients: 'Passion fruit, tea, sugar, and ice.' },
-    { imageSrc: 'dragonfruit.svg', title: 'DRAGONFRUIT', price: '₱130', description: 'A mildly sweet and visually striking tea made with dragonfruit.', ingredients: 'Dragonfruit, tea, sugar, and ice.' },
+    { imageSrc: '/lemon.svg', title: 'LEMON', price: '₱110', description: 'A refreshing tea infused with the zesty flavor of lemon.', ingredients: 'Brown sugar, milk, and ice.Lemon, tea, sugar, and ice.' },
+    { imageSrc: '/kiwi.svg', title: 'KIWI', price: '₱110', description: 'A tangy and tropical tea with the distinct taste of kiwi.', ingredients: 'Kiwi, tea, sugar, and ice.' },
+    { imageSrc: '/passionfruit.svg', title: 'PASSION FRUIT', price: '₱120', description: 'A vibrant, tropical tea with the sweet and tangy flavor of passion fruit.', ingredients: 'Passion fruit, tea, sugar, and ice.' },
+    { imageSrc: '/dragonfruit.svg', title: 'DRAGONFRUIT', price: '₱130', description: 'A mildly sweet and visually striking tea made with dragonfruit.', ingredients: 'Dragonfruit, tea, sugar, and ice.' },
 ];
 
-// wait the DOM to be loaded, then call the function to generate cards
 document.addEventListener('DOMContentLoaded', () => {
     products.forEach(product => {
         createProductCard(product.imageSrc, product.title, product.price, product.description, product.ingredients);

@@ -66,13 +66,11 @@ window.onclick = function (event) {
 }
 
 const products = [
-    { imageSrc: 'Tomato and Herb.svg', title: 'TOMATO AND HERB PASTA', price: '₱320', description: 'Al dente in garlic-infused olive oil, perfectly seasoned shrimp, dressed in parsley - a hint of lemon.', ingredients: 'Tomatoes, pasta, garlic, olive oil, and mixed herbs.' },
-    { imageSrc: 'Shrimp Aglio Olio.svg', title: 'SHRIMP AGLIO OLIO PASTA', price: '₱250', description: 'Vibrant tomato base with the flavor of fresh basil, oregano, and parsley. Pure comfort in every bite!', ingredients: 'Shrimp, pasta, garlic, olive oil, and chili flakes.' },
+    { imageSrc: '/Tomato and Herb.svg', title: 'TOMATO AND HERB PASTA', price: '₱320', description: 'Al dente in garlic-infused olive oil, perfectly seasoned shrimp, dressed in parsley - a hint of lemon.', ingredients: 'Tomatoes, pasta, garlic, olive oil, and mixed herbs.' },
+    { imageSrc: '/Shrimp Aglio Olio.svg', title: 'SHRIMP AGLIO OLIO PASTA', price: '₱250', description: 'Vibrant tomato base with the flavor of fresh basil, oregano, and parsley. Pure comfort in every bite!', ingredients: 'Shrimp, pasta, garlic, olive oil, and chili flakes.' },
 ];
 
-// Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Generate cards for each product
     products.forEach(product => {
         createProductCard(product.imageSrc, product.title, product.price, product.description, product.ingredients);
     });

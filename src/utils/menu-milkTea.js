@@ -54,10 +54,10 @@ window.onclick = function(event) {
 }
 
 const products = [
-    { imageSrc: 'okinawa.svg', title: 'OKINAWA', price: '₱110', description: 'A sweet, caramel-like drink with brown sugar and a rich, creamy flavor.', ingredients: 'Brown sugar, milk, and ice.' },
-    { imageSrc: 'wintermelon.svg', title: 'WINTERMELON', price: '₱110', description: 'A refreshing, mildly sweet drink made from wintermelon, often combined with tea or milk.', ingredients: 'Wintermelon, sugar, tea or milk.' },
-    { imageSrc: 'matcha-milk-tea.svg', title: 'MATCHA MILK TEA', price: '₱130', description: 'A finely ground powdered green tea, known for its earthy flavor and vibrant green color.', ingredients: 'Matcha powder and water (or milk for lattes).' },
-    { imageSrc: 'ube-macapuno.svg', title: 'UBE MACAPUNO', price: '₱120', description: 'A sweet Filipino dessert combining the rich flavor of purple yam (ube) with chewy coconut sport (macapuno).', ingredients: 'Ube, macapuno, sugar, and coconut milk.' },
+    { imageSrc: '/okinawa.svg', title: 'OKINAWA', price: '₱110', description: 'A sweet, caramel-like drink with brown sugar and a rich, creamy flavor.', ingredients: 'Brown sugar, milk, and ice.' },
+    { imageSrc: '/wintermelon.svg', title: 'WINTERMELON', price: '₱110', description: 'A refreshing, mildly sweet drink made from wintermelon, often combined with tea or milk.', ingredients: 'Wintermelon, sugar, tea or milk.' },
+    { imageSrc: '/matcha-milk-tea.svg', title: 'MATCHA MILK TEA', price: '₱130', description: 'A finely ground powdered green tea, known for its earthy flavor and vibrant green color.', ingredients: 'Matcha powder and water (or milk for lattes).' },
+    { imageSrc: '/ube-macapuno.svg', title: 'UBE MACAPUNO', price: '₱120', description: 'A sweet Filipino dessert combining the rich flavor of purple yam (ube) with chewy coconut sport (macapuno).', ingredients: 'Ube, macapuno, sugar, and coconut milk.' },
     
 ];
 

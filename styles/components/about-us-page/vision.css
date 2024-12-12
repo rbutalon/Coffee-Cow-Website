@@ -9,7 +9,7 @@
 
 /*Beans!*/
 .visionBean1 {
-    background-image: url('visionbean.svg');
+    background-image: url('/visionbean.svg');
     width: 200px;
     height: 30%;
     left: 0;
@@ -17,7 +17,7 @@
 }
 
 .visionBean2 {
-    background-image: url('visionbean.svg');
+    background-image: url('/visionbean.svg');
     width: 200px;
     height: 30%;
     right: 0;
