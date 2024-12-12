@@ -1,3 +1,4 @@
+// Select the form and success message container
 const form = document.getElementById("form");
 const successMessage = document.createElement("p");
 successMessage.id = "successMessage";
@@ -5,6 +6,7 @@ successMessage.className = "success-message";
 successMessage.style.display = "none";
 form.appendChild(successMessage);
 
+// Select error message containers
 const errors = {
     name: document.getElementById("nameError"),
     email: document.getElementById("emailError"),
@@ -25,6 +27,32 @@ function hideError(element, inputField) {
     inputField.classList.remove("error-border");
     inputField.classList.add("accepted");
 }
+
+// Function to reset form and styles
+function resetForm() {
+    // Reset the form fields
+    form.reset();
+
+    // Reset the styles for inputs and messages
+    for (const key in errors) {
+        const inputField = document.getElementById(key);
+        const errorElement = errors[key];
+
+        // Remove validation styles
+        inputField.classList.remove("error-border", "accepted");
+        errorElement.textContent = "";
+        errorElement.style.display = "none";
+    }
+
+    // Hide the success message
+    successMessage.style.display = "none";
+}
+
+// Event listener for page load
+window.addEventListener("load", resetForm);
+
+// Event listener for when the page regains focus
+window.addEventListener("focus", resetForm);
 
 // Event listener for the form submission
 form.addEventListener("submit", (event) => {
