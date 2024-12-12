@@ -92,7 +92,7 @@
 }
 
 .bestSeller__bg1{
-    background-image: url('best-seller-bg1.svg');
+    background-image: url('/best-seller-bg1.svg');
     width: 550px;
     height: 33%;
     top: unset;
@@ -102,7 +102,7 @@
 }
 
 .bestSeller__bg2{
-    background-image: url('best-seller-bg2.svg');
+    background-image: url('/best-seller-bg2.svg');
     width: 350px;
     height: 23%;
     right: 0;

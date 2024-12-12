@@ -76,7 +76,7 @@
 }
 
 .locationBean__1{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 200px;
     height: 20%;
     transform: translate(-40%, 5%) rotate(45deg);
@@ -84,7 +84,7 @@
 }
 
 .locationBean__2{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 140px;
     height: 15%;
     right: 0;
@@ -94,7 +94,7 @@
 }
 
 .locationBean__3{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 120px;
     height: 10%;
     top: unset;

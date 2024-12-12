@@ -27,7 +27,7 @@
 }
 
 .qualitiesBean__1{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 200px;
     height: 20%;
     fill: var(--clr-light);
@@ -37,7 +37,7 @@
 }
 
 .qualitiesBean__2{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 150px;
     height: 20%;
     transform: translate(-35%, 165%) rotate(-50deg);
@@ -45,7 +45,7 @@
 }
 
 .qualitiesBean__3{
-    background-image: url('coffee bean.svg');
+    background-image: url('/coffee bean.svg');
     width: 110px;
     height: 20%;
     top: unset;
