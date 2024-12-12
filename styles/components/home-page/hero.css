@@ -70,7 +70,7 @@
 }
 
 .body__cafeSketch{
-    background-image: url('sketch.png');
+    background-image: url('/sketch.png');
     background-size: cover;
     width: 340px;
     height: 45%;
@@ -81,7 +81,7 @@
 }
 
 .body__caramelSketch{
-    background-image: url('caramel sketch.png');
+    background-image: url('/caramel sketch.png');
     width: 130px;
     height: 10%;
     top: 27rem;
